@@ -30,7 +30,7 @@ public class Barber implements Runnable {
 
 	private void performHaircut(Customer customer) {
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(650);
 			System.out.println("Customer " + customer.getId()
 					+ " has got a haircut");
 		} catch (InterruptedException e) {
